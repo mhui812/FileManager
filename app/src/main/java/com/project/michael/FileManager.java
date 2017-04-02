@@ -11,6 +11,8 @@ import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -87,4 +89,36 @@ public class FileManager extends ListActivity {
 		//setResult(RESULT_OK, intent);
 		//finish();
     }
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main_menu, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		int id = item.getItemId();
+		switch (id) {
+			case R.id.action_search:
+				toast("Search action ...");
+				break;
+			case R.id.action_settings:
+				toast("Settings action ...");
+				break;
+			case R.id.action_about:
+				toast("About action ...");
+				break;
+			case android.R.id.home:
+				toast("Home button ...");
+				break;
+			default:
+				toast("unknown action ...");
+		}
+
+		return true;
+	}
+
+	private void toast(String msg) {
+		Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
+	}
 }
