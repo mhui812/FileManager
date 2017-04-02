@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:3:7-36
+		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:5:7-32
+		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:7:7-36
+	android:versionCode
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:2:11-69
+	android:minSdkVersion
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:6:7-33
+application
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:8:5-17:19
+	android:label
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:8:48-80
+	android:icon
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:8:18-47
+activity#com.project.michael.FileManager
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:9:9-15:20
+	android:label
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:10:19-51
+	android:name
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:9:19-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:11:13-14:29
+action#android.intent.action.MAIN
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:12:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:13:17-77
+	android:name
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:13:27-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:21:1-93
+	android:name
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:21:18-74
+uses-sdk
+INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+	android:targetSdkVersion
+		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml

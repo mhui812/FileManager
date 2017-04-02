@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/raw/file_icon.png",
+        "source": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/raw/file_icon.png"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/raw/directory_icon.png",
+        "source": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/raw/directory_icon.png"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/raw/directory_up.png",
+        "source": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/raw/directory_up.png"
+    }
+]
