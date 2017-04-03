@@ -6,23 +6,26 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491187525281"
+    timestamp="1491191691834"
     token="-6445580469129833254"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="82" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="28" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
@@ -67,16 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491187457209"
+        timestamp="1491191691834"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1491187525281"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />

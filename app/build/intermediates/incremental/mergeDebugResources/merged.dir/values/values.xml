@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">File Manager</string>
-    <string name="hello">Hello World, FileManager</string>
-    <string name="search_hint">file name</string>
-    <string name="search_title">search</string>
-</resources>

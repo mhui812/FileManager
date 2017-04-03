@@ -6,5 +6,9 @@
     {
         "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/layout/file_view.xml",
         "source": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/layout/file_view.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/layout/search_result_view.xml",
+        "source": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/layout/search_result_view.xml"
     }
 ]
