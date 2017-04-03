@@ -1,1 +1,6 @@
-[]
+[
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/xml/searchable.xml",
+        "source": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/xml/searchable.xml"
+    }
+]

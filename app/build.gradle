@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "com.project.michael"
-        minSdkVersion 4
-        targetSdkVersion 4
+        minSdkVersion 11
+        targetSdkVersion 11
     }
 
     buildTypes {

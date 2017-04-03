@@ -9,12 +9,15 @@ import java.util.List;
 
 import android.app.Activity;
 import android.app.ListActivity;
+import android.app.SearchManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.Toast;
 
 public class FileManager extends ListActivity {
@@ -92,7 +95,15 @@ public class FileManager extends ListActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.main_menu, menu);
+		SearchManager searchManager =
+				(SearchManager) getSystemService(Context.SEARCH_SERVICE);
+		SearchView searchView =
+				(SearchView) menu.findItem(R.id.action_search).getActionView();
+		searchView.setSearchableInfo(
+				searchManager.getSearchableInfo(getComponentName()));
+
 		return true;
+
 	}
 
 	@Override

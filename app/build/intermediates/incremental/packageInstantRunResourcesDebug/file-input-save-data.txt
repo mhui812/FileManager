@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Apr 01 21:39:01 PDT 2017
+#Sun Apr 02 19:45:25 PDT 2017
 8.set=ANDROID_RESOURCE
 1.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
 1.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/raw/directory_icon.png
@@ -7,14 +7,14 @@
 3.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
 4.set=ANDROID_RESOURCE
 5.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
-5.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_owl.png
+5.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_action_search.png
 7.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
-7.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
-11.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+7.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+11.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/menu/main_menu.xml
 11.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
 9.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
-9.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_action_download.png
-13.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/raw/file_icon.png
+9.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/raw/directory_up.png
+13.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/xml/searchable.xml
 13.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
 11.set=ANDROID_RESOURCE
 0.set=ANDROID_RESOURCE
@@ -26,17 +26,17 @@
 6.set=ANDROID_RESOURCE
 2.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_action_share.png
 2.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
-4.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/menu-v11/main_menu.xml
+4.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_owl.png
 4.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
 6.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
-6.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_action_search.png
+6.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
 10.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
-10.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/raw/directory_up.png
+10.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 13.set=ANDROID_RESOURCE
 8.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
-8.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+8.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_action_download.png
 2.set=ANDROID_RESOURCE
-12.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/menu/main_menu.xml
+12.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/raw/file_icon.png
 12.base=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_
 9.set=ANDROID_RESOURCE
 count=14

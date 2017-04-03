@@ -39,6 +39,44 @@
                         "endOffset": 109
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 164,
+                    "endColumn": 49,
+                    "endOffset": 209
+                },
+                "from": {
+                    "file": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 49,
+                        "endOffset": 209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 214,
+                    "endColumn": 47,
+                    "endOffset": 257
+                },
+                "from": {
+                    "file": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 214,
+                        "endColumn": 47,
+                        "endOffset": 257
+                    }
+                }
             }
         ]
     }
