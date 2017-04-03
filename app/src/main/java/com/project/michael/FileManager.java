@@ -100,7 +100,12 @@ public class FileManager extends ListActivity {
 		int id = item.getItemId();
 		switch (id) {
 			case R.id.action_search:
-				toast("Search action ...");
+				//toast("Search action ...");
+				file_name = R.menu.main_menu.
+				ArrayList<String> found = mFileMang.searchInDirectory(mFileMang.getCurrentDir(),
+						file_name);
+
+
 				break;
 			case R.id.action_settings:
 				toast("Settings action ...");
@@ -120,5 +125,38 @@ public class FileManager extends ListActivity {
 
 	private void toast(String msg) {
 		Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
+	}
+
+	public ArrayList<String> searchInDirectory(String dir, String pathName) {
+		ArrayList<String> names = new ArrayList<String>();
+		search_file(dir, pathName, names);
+
+		return names;
+	}
+
+	private void search_file(String dir, String fileName, ArrayList<String> n) {
+		File root_dir = new File(dir);
+		String[] list = root_dir.list();
+
+		if(list != null && root_dir.canRead()) {
+			int len = list.length;
+
+			for (int i = 0; i < len; i++) {
+				File check = new File(dir + "/" + list[i]);
+				String name = check.getName();
+
+				if(check.isFile() && name.toLowerCase().
+						contains(fileName.toLowerCase())) {
+					n.add(check.getPath());
+				}
+				else if(check.isDirectory()) {
+					if(name.toLowerCase().contains(fileName.toLowerCase()))
+						n.add(check.getPath());
+
+					else if(check.canRead() && !dir.equals("/"))
+						search_file(check.getAbsolutePath(), fileName, n);
+				}
+			}
+		}
 	}
 }
