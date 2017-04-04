@@ -35,26 +35,15 @@ public class FileManager extends ListActivity {
     {
     	File[]dirs = f.listFiles();
 		 this.setTitle("Current Directory: "+f.getName());
-		 List<Item>dir = new ArrayList<Item>();
-		 List<Item>fls = new ArrayList<Item>();
+		 List<Item>dir = new ArrayList<>();
+		 List<Item>fls = new ArrayList<>();
 		 try{
 			 for(File ff: dirs)
 			 {
-				 Date lastModDate = new Date(ff.lastModified());
-				 DateFormat formater = DateFormat.getDateTimeInstance();
-				 String modeifiedDate = formater.format(lastModDate);
 				 if(ff.isDirectory()) {
-                     File[] fbuf = ff.listFiles();
-                     int buf = 0;
-                     if (fbuf != null) {
-                         buf = fbuf.length;
-                     } else buf = 0;
-                     String num_item = String.valueOf(buf);
-                     if (buf == 0) num_item = num_item + " item";
-                     else num_item = num_item + " items";
-                     dir.add(new Item(ff.getName(), num_item, modeifiedDate, ff.getAbsolutePath(), "directory_icon"));
+                     dir.add(new Item(ff.getName(), getItemNum(ff), getFileDate(ff), ff.getAbsolutePath(), "directory_icon"));
                  }else {
-					fls.add(new Item(ff.getName(),ff.length() + " Byte",modeifiedDate,ff.getAbsolutePath(),"file_icon"));
+					fls.add(new Item(ff.getName(),ff.length() + " Byte",getFileDate(ff),ff.getAbsolutePath(),"file_icon"));
 				 }
 			 }
 		 }catch(Exception e)
@@ -139,6 +128,23 @@ public class FileManager extends ListActivity {
 			String query = intent.getStringExtra(SearchManager.QUERY);
 			//use the query to search your data somehow
 		}
+	}
+	public String getFileDate(File file){
+		Date lastModDate = new Date(file.lastModified());
+		DateFormat formater = DateFormat.getDateTimeInstance();
+		return formater.format(lastModDate);
+	}
+
+	public String getItemNum(File file){
+		File[] fbuf = file.listFiles();
+		int buf = 0;
+		if (fbuf != null) {
+			buf = fbuf.length;
+		} else buf = 0;
+		String num_item = String.valueOf(buf);
+		if (buf == 0) num_item = num_item + " item";
+		else num_item = num_item + " items";
+		return num_item;
 	}
 
 }
