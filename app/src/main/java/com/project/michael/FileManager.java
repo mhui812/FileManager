@@ -62,19 +62,19 @@ public class FileManager extends ListActivity {
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 
 		super.onListItemClick(l, v, position, id);
-		Item o = adapter.getItem(position);
-		if(o.getImage().equalsIgnoreCase("directory_icon")||o.getImage().equalsIgnoreCase("directory_up")){ //if it is a folder, generate the new view
-			currentDirectory = new File(o.getPath());
+		Item item = adapter.getItem(position);
+		if(item.getImage().equalsIgnoreCase("directory_icon")||item.getImage().equalsIgnoreCase("directory_up")){ //if it is a folder, generate the new view
+			currentDirectory = new File(item.getPath());
 			fill(currentDirectory);
 		}
 		else
 		{
-			onFileClick(o); //if it is file, display the name
+			onFileClick(item); //if it is file, display the name
 		}
 	}
-    private void onFileClick(Item o)
+    private void onFileClick(Item item)
     {
-    	Toast.makeText(this, "File Selected: "+ o.getName() + "\n" + o.getData() + " Byte" + "\n" + "Last Modified: " + o.getDate(), Toast.LENGTH_SHORT).show();
+    	Toast.makeText(this, "File Selected: "+ item.getName() + "\n" + item.getData() + " Byte" + "\n" + "Last Modified: " + item.getDate(), Toast.LENGTH_SHORT).show();
 		//Intent intent = new Intent();
 		//intent.putExtra("GetPath",currentDirectory.toString());
 		//intent.putExtra("GetFileName",o.getName());

@@ -4,9 +4,13 @@ import android.app.ListActivity;
 import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -17,6 +21,7 @@ public class SearchableActivity extends ListActivity {
 
     private FileArrayAdapter adapter;
     private FileManager fileManager = new FileManager();
+    private File currentDirectory;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -63,6 +68,56 @@ public class SearchableActivity extends ListActivity {
                 }
             }
         }
+    }
+    @Override
+    protected void onListItemClick(ListView l, View v, int position, long id) {
+
+        super.onListItemClick(l, v, position, id);
+        Item item = adapter.getItem(position);
+        if(item.getImage().equalsIgnoreCase("directory_icon")||item.getImage().equalsIgnoreCase("directory_up")){ //if it is a folder, generate the new view
+            currentDirectory = new File(item.getPath());
+            fill(currentDirectory);
+        }
+        else
+        {
+            onFileClick(item); //if it is file, display the name
+        }
+    }
+    private void onFileClick(Item item)
+    {
+        Toast.makeText(this, "File Selected: "+ item.getName() + "\n" + item.getData() + " Byte" + "\n" + "Last Modified: " + item.getDate(), Toast.LENGTH_SHORT).show();
+        //Intent intent = new Intent();
+        //intent.putExtra("GetPath",currentDirectory.toString());
+        //intent.putExtra("GetFileName",o.getName());
+        //setResult(RESULT_OK, intent);
+        //finish();
+    }
+    private void fill(File f)
+    {
+        File[]dirs = f.listFiles();
+        this.setTitle("Current Directory: "+f.getName());
+        List<Item> dir = new ArrayList<>();
+        List<Item> fls = new ArrayList<>();
+        try{
+            for(File ff: dirs)
+            {
+                if(ff.isDirectory()) {
+                    dir.add(new Item(ff.getName(), fileManager.getItemNum(ff), fileManager.getFileDate(ff), ff.getAbsolutePath(), "directory_icon"));
+                }else {
+                    fls.add(new Item(ff.getName(),ff.length() + " Byte",fileManager.getFileDate(ff),ff.getAbsolutePath(),"file_icon"));
+                }
+            }
+        }catch(Exception e)
+        {
+
+        }
+        Collections.sort(dir);
+        Collections.sort(fls);
+        dir.addAll(fls);
+        if(!f.getName().equalsIgnoreCase("sdcard"))
+            dir.add(0,new Item("..","Parent Directory","",f.getParent(),"directory_up"));
+        adapter = new FileArrayAdapter(this,R.layout.file_view,dir);
+        this.setListAdapter(adapter);
     }
 
 }
