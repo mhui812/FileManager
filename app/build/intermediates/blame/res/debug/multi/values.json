@@ -11,14 +11,7 @@
                     "endOffset": 100
                 },
                 "from": {
-                    "file": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 114,
-                        "endColumn": 49,
-                        "endOffset": 159
-                    }
+                    "file": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -30,14 +23,7 @@
                     "endOffset": 159
                 },
                 "from": {
-                    "file": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 58,
-                        "endOffset": 109
-                    }
+                    "file": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -45,8 +31,8 @@
                     "startLine": 4,
                     "startColumn": 4,
                     "startOffset": 164,
-                    "endColumn": 49,
-                    "endOffset": 209
+                    "endColumn": 56,
+                    "endOffset": 216
                 },
                 "from": {
                     "file": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/values/strings.xml",
@@ -54,8 +40,8 @@
                         "startLine": 4,
                         "startColumn": 4,
                         "startOffset": 164,
-                        "endColumn": 49,
-                        "endOffset": 209
+                        "endColumn": 56,
+                        "endOffset": 216
                     }
                 }
             },
@@ -63,19 +49,12 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 214,
+                    "startOffset": 221,
                     "endColumn": 47,
-                    "endOffset": 257
+                    "endOffset": 264
                 },
                 "from": {
-                    "file": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 214,
-                        "endColumn": 47,
-                        "endOffset": 257
-                    }
+                    "file": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/res/values/strings.xml"
                 }
             }
         ]

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:3:7-36
 		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
@@ -20,13 +20,13 @@ ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/
 	android:minSdkVersion
 		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:6:7-33
 application
-ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:8:5-19:19
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:8:5-29:19
 	android:label
 		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:8:48-80
 	android:icon
 		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:8:18-47
 activity#com.project.michael.FileManager
-ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:9:9-17:20
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:9:9-19:20
 	android:label
 		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:10:19-51
 	android:name
@@ -41,25 +41,41 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:13:17-77
 	android:name
 		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:13:27-74
-meta-data#android.app.searchable
-ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:15:13-16:54
-	android:resource
-		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:16:17-51
+meta-data#android.app.default_searchable
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:15:13-16:55
+	android:value
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:16:17-52
 	android:name
-		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:15:24-61
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:15:24-69
+activity#com.project.michael.SearchableActivity
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:20:19-53
+intent-filter#android.intent.action.SEARCH
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:21:13-23:29
+action#android.intent.action.SEARCH
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:22:17-71
+	android:name
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:22:25-68
+meta-data#android.app.searchable
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:24:13-25:53
+	android:resource
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:25:17-51
+	android:name
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:24:24-61
 uses-sdk
-ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:20:5-22:38
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:30:5-32:38
 	android:maxSdkVersion
-		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:22:9-35
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:32:9-35
 	android:targetSdkVersion
-		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:21:9-38
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:31:9-38
 		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:20:15-41
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:30:15-41
 		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:26:1-93
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:36:1-93
 	android:name
-		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:26:18-74
+		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:36:18-74

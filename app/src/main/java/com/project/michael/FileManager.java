@@ -35,8 +35,8 @@ public class FileManager extends ListActivity {
     {
     	File[]dirs = f.listFiles();
 		 this.setTitle("Current Directory: "+f.getName());
-		 List<Item>dir = new ArrayList<>();
-		 List<Item>fls = new ArrayList<>();
+		 List<Item> dir = new ArrayList<>();
+		 List<Item> fls = new ArrayList<>();
 		 try{
 			 for(File ff: dirs)
 			 {
@@ -95,28 +95,28 @@ public class FileManager extends ListActivity {
 
 	}
 
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		int id = item.getItemId();
-		switch (id) {
-			case R.id.action_search:
-				toast("Search action ...");
-				break;
-			case R.id.action_settings:
-				toast("Settings action ...");
-				break;
-			case R.id.action_about:
-				toast("About action ...");
-				break;
-			case android.R.id.home:
-				toast("Home button ...");
-				break;
-			default:
-				toast("unknown action ...");
-		}
-
-		return true;
-	}
+//	@Override
+//	public boolean onOptionsItemSelected(MenuItem item) {
+//		int id = item.getItemId();
+//		switch (id) {
+//			case R.id.action_search:
+//				toast("Search action ...");
+//				break;
+//			case R.id.action_settings:
+//				toast("Settings action ...");
+//				break;
+//			case R.id.action_about:
+//				toast("About action ...");
+//				break;
+//			case android.R.id.home:
+//				toast("Home button ...");
+//				break;
+//			default:
+//				toast("unknown action ...");
+//		}
+//
+//		return true;
+//	}
 
 	private void toast(String msg) {
 		Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();

@@ -2,35 +2,41 @@
 <instant-run
     abi="x86"
     api-level="23"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491276958828"
+    timestamp="1491363236536"
     token="-6445580469129833254"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="104" />
+        duration="69" />
     <task
         name="instant-run-dex"
-        duration="551" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="22" />
+        duration="15" />
     <task
         name="verifier"
-        duration="3" />
+        duration="6" />
 
     <artifact
-        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1491275256722"
+        timestamp="1491361802986"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
@@ -61,28 +67,25 @@
         <artifact
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1491362803114"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491276887914"
-        verifier="METHOD_ADDED" >
+        timestamp="1491363236536"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1491276958828"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
