@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/anim/abc_fade_out.xml"
+    }
+]

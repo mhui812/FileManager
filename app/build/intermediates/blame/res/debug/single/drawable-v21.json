@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

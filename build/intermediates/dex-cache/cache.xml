@@ -3,12 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/Michael.Hui@ibm.com/.android/build-cache/050bfbc08ab57f919479f4fca28a9a2bec75b087/output/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0cf6e5aed05f0a9abc1a6ec53223751c98ee2e3c">
-        <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_466c32efc1b6b695b6e0666a5bf0b7d9b14bc4d8/classes.dex" />
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_291f6a08d2ba427bd3d56f41e14e62ac721ab056/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +18,78 @@
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_86c6caec68ba3cabf8b0261e30bd802aa2eff8bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Michael.Hui@ibm.com/.android/build-cache/d02b2de372d43fc7626297e8ed16b8ed8a028134/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55b05430426c5feed01707d073d9b5b549bf7309/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Michael.Hui@ibm.com/.android/build-cache/e36a026400c539921df5e3d8c67d9bb7ce7e8662/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5f470da8a8981ec43264ece4dbd7bc76d05e85a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Michael.Hui@ibm.com/.android/build-cache/050bfbc08ab57f919479f4fca28a9a2bec75b087/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_538b0c4ac6e70694a48efe9a0bdddec03b309edb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Michael.Hui@ibm.com/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_56aa16395694232d52ca2d6168c9bc716eb197b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Michael.Hui@ibm.com/.android/build-cache/2f9c45fcd3f62a0e9bbb72eb22fd6452918a7ed8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_05a6dd606262d1ecbef3e03019bac994af1f0f0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Michael.Hui@ibm.com/.android/build-cache/6fd08137a355ab51f68dc8511e8a425c8d80adeb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ef185f8aeeb819ebef6c34c858818e7cd5b1847/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ef25be1612d3e5aa6df33b8d11ac8c56a6f90c1">
+        <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_466c32efc1b6b695b6e0666a5bf0b7d9b14bc4d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Michael.Hui@ibm.com/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_21013b12e93b6374eb004b99bf5cac80e2cecf56/classes.dex" />
     </item>
 
 </items>

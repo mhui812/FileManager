@@ -60,7 +60,7 @@ public class SearchableActivity extends ListActivity {
                 }
                 else if(check.isDirectory()) {
                     if(name.toLowerCase().contains(fileName.toLowerCase())){
-                        Item item = new Item(name, fileManager.getFileDate(check), fileManager.getFileDate(check), check.getAbsolutePath(), "directory_icon");
+                        Item item = new Item(name, fileManager.getItemNum(check), fileManager.getFileDate(check), check.getAbsolutePath(), "directory_icon");
                         searchResult.add(item);
                     }else if(check.canRead() && !dir.equals("/")){
                         search_file(check.getAbsolutePath(), fileName, searchResult);
@@ -86,11 +86,11 @@ public class SearchableActivity extends ListActivity {
     private void onFileClick(Item item)
     {
         Toast.makeText(this, "File Selected: "+ item.getName() + "\n" + item.getData() + " Byte" + "\n" + "Last Modified: " + item.getDate(), Toast.LENGTH_SHORT).show();
-        //Intent intent = new Intent();
-        //intent.putExtra("GetPath",currentDirectory.toString());
-        //intent.putExtra("GetFileName",o.getName());
-        //setResult(RESULT_OK, intent);
-        //finish();
+//        Intent intent = new Intent();
+//        intent.putExtra("GetPath",currentDirectory.toString());
+//        intent.putExtra("GetFileName",item.getName());
+//        setResult(RESULT_OK, intent);
+//        finish();
     }
     private void fill(File f)
     {

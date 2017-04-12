@@ -27,7 +27,6 @@ public class FileManager extends ListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//		setContentView(R.layout.main);
 		currentDirectory = new File("/sdcard/");
         fill(currentDirectory);
     }
@@ -75,11 +74,11 @@ public class FileManager extends ListActivity {
     private void onFileClick(Item item)
     {
     	Toast.makeText(this, "File Selected: "+ item.getName() + "\n" + item.getData() + " Byte" + "\n" + "Last Modified: " + item.getDate(), Toast.LENGTH_SHORT).show();
-		//Intent intent = new Intent();
-		//intent.putExtra("GetPath",currentDirectory.toString());
-		//intent.putExtra("GetFileName",o.getName());
-		//setResult(RESULT_OK, intent);
-		//finish();
+//		Intent intent = new Intent();
+//		intent.putExtra("GetPath",currentDirectory.toString());
+//		intent.putExtra("GetFileName",item.getName());
+//		setResult(RESULT_OK, intent);
+//		finish();
     }
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -95,28 +94,28 @@ public class FileManager extends ListActivity {
 
 	}
 
-//	@Override
-//	public boolean onOptionsItemSelected(MenuItem item) {
-//		int id = item.getItemId();
-//		switch (id) {
-//			case R.id.action_search:
-//				toast("Search action ...");
-//				break;
-//			case R.id.action_settings:
-//				toast("Settings action ...");
-//				break;
-//			case R.id.action_about:
-//				toast("About action ...");
-//				break;
-//			case android.R.id.home:
-//				toast("Home button ...");
-//				break;
-//			default:
-//				toast("unknown action ...");
-//		}
-//
-//		return true;
-//	}
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		int id = item.getItemId();
+		switch (id) {
+			case R.id.action_search:
+				toast("Search");
+				break;
+			case R.id.action_settings:
+				toast("Settings action ...");
+				break;
+			case R.id.action_about:
+				startActivity(new Intent(getApplicationContext(),About.class));
+				break;
+			case android.R.id.home:
+				toast("Home button ...");
+				break;
+			default:
+				toast("unknown action ...");
+		}
+
+		return true;
+	}
 
 	private void toast(String msg) {
 		Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();

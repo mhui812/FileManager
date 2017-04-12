@@ -2,37 +2,67 @@
 <instant-run
     abi="x86"
     api-level="23"
-    build-mode="COLD"
+    build-mode="FULL"
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491364192171"
+    timestamp="1491969225577"
     token="-6445580469129833254"
-    verifier="METHOD_ADDED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="90" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1491361802986"
+        timestamp="1491969225577"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
@@ -59,6 +89,9 @@
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
@@ -67,25 +100,6 @@
         <artifact
             location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1491364017321"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1491364192171"
-        verifier="METHOD_ADDED" >
-        <artifact
-            location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

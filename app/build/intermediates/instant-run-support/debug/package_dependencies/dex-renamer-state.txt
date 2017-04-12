@@ -1,0 +1,25 @@
+#Tue Apr 11 20:40:26 PDT 2017
+renamed.7=classes6.dex
+renamed.6=classes2.dex
+renamed.5=classes8.dex
+renamed.4=classes4.dex
+renamed.3=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes5.dex
+renamed.0=classes7.dex
+base.7=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_56aa16395694232d52ca2d6168c9bc716eb197b1
+base.6=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ef185f8aeeb819ebef6c34c858818e7cd5b1847
+base.5=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_21013b12e93b6374eb004b99bf5cac80e2cecf56
+base.4=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55b05430426c5feed01707d073d9b5b549bf7309
+base.3=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_05a6dd606262d1ecbef3e03019bac994af1f0f0f
+base.2=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_538b0c4ac6e70694a48efe9a0bdddec03b309edb
+base.1=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5f470da8a8981ec43264ece4dbd7bc76d05e85a4
+base.0=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_291f6a08d2ba427bd3d56f41e14e62ac721ab056
+file.7=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_56aa16395694232d52ca2d6168c9bc716eb197b1/classes.dex
+file.6=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ef185f8aeeb819ebef6c34c858818e7cd5b1847/classes.dex
+file.5=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_21013b12e93b6374eb004b99bf5cac80e2cecf56/classes.dex
+file.4=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55b05430426c5feed01707d073d9b5b549bf7309/classes.dex
+file.3=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_05a6dd606262d1ecbef3e03019bac994af1f0f0f/classes.dex
+file.2=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_538b0c4ac6e70694a48efe9a0bdddec03b309edb/classes.dex
+file.1=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5f470da8a8981ec43264ece4dbd7bc76d05e85a4/classes.dex
+file.0=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_291f6a08d2ba427bd3d56f41e14e62ac721ab056/classes.dex
