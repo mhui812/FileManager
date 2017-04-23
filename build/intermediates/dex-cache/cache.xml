@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8ef25be1612d3e5aa6df33b8d11ac8c56a6f90c1">
+        sha1="6035468d4de92b1c2163369389077cfb0dcc6ad6">
         <dex dex="/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_466c32efc1b6b695b6e0666a5bf0b7d9b14bc4d8/classes.dex" />
     </item>
     <item

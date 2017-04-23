@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 11 21:14:40 PDT 2017
+#Sat Apr 22 10:08:53 PDT 2017
 122.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_small_material.xml
 60.set=ANDROID_RESOURCE
 129.file=/Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_button_bar_material.xml

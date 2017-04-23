@@ -100,6 +100,6 @@ ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/
 	android:name
 		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:40:17-54
 activity#com.project.michael.About
-ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:43:9-52
+ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:43:9-43
 	android:name
 		ADDED from /Users/Michael.Hui@ibm.com/Documents/Android Project/FileManager/app/src/main/AndroidManifest.xml:43:19-40

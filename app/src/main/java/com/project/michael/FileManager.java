@@ -101,8 +101,9 @@ public class FileManager extends ListActivity {
 			case R.id.action_search:
 				toast("Search");
 				break;
-			case R.id.action_settings:
-				toast("Settings action ...");
+			case R.id.action_exit:
+				finish();
+				System.exit(0);
 				break;
 			case R.id.action_about:
 				startActivity(new Intent(getApplicationContext(),About.class));
